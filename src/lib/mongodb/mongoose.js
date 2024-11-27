@@ -12,7 +12,7 @@ export const connect = async () => {
 
   try {
     await mongoose.connect(process.env.MONGODB_URI, {
-      dbName: "Next Auth App",
+      dbName: "Next-Auth-App",
     });
     console.log("Mongodb connected");
     initialized = true;
